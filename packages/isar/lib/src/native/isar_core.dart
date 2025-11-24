@@ -138,6 +138,9 @@ Future<void> _downloadIsarCore(String libraryPath) async {
   }
   final remoteName = Abi.current().remoteName;
   final uri = Uri.parse('$_githubUrl/${Isar.version}/$remoteName');
+  print("ISAR CORE DOWNLOAD");
+  print(remoteName);
+  print(uri);
   final request = await HttpClient().getUrl(uri);
   final response = await request.close();
   if (response.statusCode != 200) {
