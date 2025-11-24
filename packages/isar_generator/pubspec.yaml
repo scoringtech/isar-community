@@ -17,6 +17,7 @@ dependencies:
     git:
       url: ssh://git@github.com/scoringtech/isar-community.git
       ref: jmap
+      path: packages/isar
   path: ^1.8.1
   source_gen: ^1.2.2
   xxh3: ^1.0.1
