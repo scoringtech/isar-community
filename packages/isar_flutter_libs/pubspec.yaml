@@ -11,7 +11,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  isar: 3.1.0+1
+  isar:
+    git:
+      url: ssh://git@github.com/scoringtech/isar-community.git
+      ref: jmap
 
 flutter:
   plugin:
