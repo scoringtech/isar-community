@@ -15,7 +15,6 @@ dependencies:
     git:
       url: ssh://git@github.com/scoringtech/isar-community.git
       ref: jmap
-      path: packages/isar
 
 flutter:
   plugin:
